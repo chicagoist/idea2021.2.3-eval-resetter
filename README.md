@@ -9,3 +9,11 @@
 4. Restart your IDE.
 5. Now you have another 30 days eval time :)
 6. For more information, visit [here](https://zhile.io/2020/11/18/jetbrains-eval-reset-da33a93d.html).
+
+
+    Unpack the ideaIU-2021.2.3.tar.gz file to an empty directory using the following command: 
+    
+    ```tar -xzf ideaIU-2021.2.3.tar.gz```
+
+    Note: A new instance MUST NOT be extracted over an existing one. The target folder must be empty.
+    Run idea.sh from the bin subdirectory
