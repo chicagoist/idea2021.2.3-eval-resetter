@@ -14,7 +14,7 @@
     Unpack the ideaIU-2021.2.3.tar.gz file to an empty directory using the following command: 
     
     ```
-       sudo tar -xzf ideaIU-2021.2.3.tar.gz -C /opt/
+       sudo tar -xzvf ideaIU-2021.2.3.tar.gz -C /opt/
     
        sudo ln -s /opt/idea-IU-212.5457.46/bin/idea.sh /usr/local/bin/ideaIU
        
