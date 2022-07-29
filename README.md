@@ -13,7 +13,15 @@
 
     Unpack the ideaIU-2021.2.3.tar.gz file to an empty directory using the following command: 
     
-    ```tar -xzf ideaIU-2021.2.3.tar.gz```
+    ```
+       sudo tar -xzf ideaIU-2021.2.3.tar.gz -C /opt/
+    
+       sudo ln -s /opt/idea-IU-212.5457.46/bin/idea.sh /usr/local/bin/ideaIU
+       
+       which ideaIU
+       
+       ls -l /usr/local/bin/ideaIU
+    ```
 
     Note: A new instance MUST NOT be extracted over an existing one. The target folder must be empty.
     Run idea.sh from the bin subdirectory
